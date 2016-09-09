@@ -14,6 +14,8 @@
  */
 @interface MASViewAttribute : NSObject
 
+NS_ASSUME_NONNULL_BEGIN
+
 /**
  *  The view which the reciever relates to. Can be nil if item is not a view.
  */
@@ -45,5 +47,7 @@
  *	@return	YES if layoutAttribute is equal to NSLayoutAttributeWidth or NSLayoutAttributeHeight
  */
 - (BOOL)isSizeAttribute;
+
+NS_ASSUME_NONNULL_END
 
 @end

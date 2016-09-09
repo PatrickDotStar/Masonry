@@ -14,6 +14,8 @@
 
 @interface MAS_VIEW_CONTROLLER (MASAdditions)
 
+NS_ASSUME_NONNULL_BEGIN
+
 /**
  *	following properties return a new MASViewAttribute with appropriate UILayoutGuide and NSLayoutAttribute
  */
@@ -24,6 +26,7 @@
 @property (nonatomic, strong, readonly) MASViewAttribute *mas_bottomLayoutGuideTop;
 @property (nonatomic, strong, readonly) MASViewAttribute *mas_bottomLayoutGuideBottom;
 
+NS_ASSUME_NONNULL_END
 
 @end
 
