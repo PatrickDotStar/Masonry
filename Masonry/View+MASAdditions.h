@@ -16,6 +16,8 @@
  */
 @interface MAS_VIEW (MASAdditions)
 
+NS_ASSUME_NONNULL_BEGIN
+
 /**
  *	following properties return a new MASViewAttribute with current view and appropriate NSLayoutAttribute
  */
@@ -97,5 +99,7 @@
  *  @return Array of created/updated MASConstraints
  */
 - (NSArray *)mas_remakeConstraints:(void(NS_NOESCAPE ^)(MASConstraintMaker *make))block;
+
+NS_ASSUME_NONNULL_END
 
 @end

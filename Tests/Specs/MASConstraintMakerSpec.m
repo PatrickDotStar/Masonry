@@ -13,8 +13,12 @@
 
 @interface MASConstraintMaker () <MASConstraintDelegate>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @property (nonatomic, weak) MAS_VIEW *view;
 @property (nonatomic, strong) NSMutableArray *constraints;
+
+NS_ASSUME_NONNULL_END
 
 @end
 

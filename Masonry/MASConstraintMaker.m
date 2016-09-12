@@ -24,7 +24,7 @@
 
 - (id)initWithView:(MAS_VIEW *)view {
     self = [super init];
-    if (!self) return nil;
+    if (!self) return self;
     
     self.view = view;
     self.constraints = NSMutableArray.new;
