@@ -71,7 +71,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)constraint:(MASConstraint *)constraint shouldBeReplacedWithConstraint:(MASConstraint *)replacementConstraint;
 
-- (MASConstraint *)constraint:(MASConstraint *)constraint addConstraintWithLayoutAttribute:(NSLayoutAttribute)layoutAttribute;
+- (MASConstraint *)constraint:(nullable MASConstraint *)constraint addConstraintWithLayoutAttribute:(NSLayoutAttribute)layoutAttribute;
 
 NS_ASSUME_NONNULL_END
 
